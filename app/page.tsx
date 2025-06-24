@@ -7,6 +7,7 @@ import FeaturesSection from "@/components/FeaturesSection"
 import ContactSection from "@/components/ContactSection"
 import HeroSection from "@/components/HeroSection"
 import Footer from "@/components/Footer"
+import PartnersSection from "@/components/PartnersSection"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
+      <PartnersSection />
       <ContactSection />
       <Footer />
     </main>
