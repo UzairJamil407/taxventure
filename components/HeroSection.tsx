@@ -37,7 +37,9 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-taxventure-red hover:bg-taxventure-red-dark text-white">
-                Start Free Trial
+                <a href="http://demo.taxventure.net/" target="_blank" rel="noopener noreferrer">
+                  Start Free Trial
+                </a>
                 <ArrowRight className="ml-2" size={18} />
               </Button>
               <Button size="lg" variant="outline" className="border-taxventure-black text-taxventure-black hover:bg-taxventure-black hover:text-white">
