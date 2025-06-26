@@ -30,8 +30,11 @@ const Header = () => {
             <a href="#contact" className="text-gray-700 hover:text-taxventure-red transition-colors">Contact</a>
             <Button 
               className="bg-taxventure-red hover:bg-taxventure-red-dark text-white"
+              asChild
             >
-              Get Started
+              <a href="https://demo.taxventure.net/" target="_blank" rel="noopener noreferrer">
+                Get Started
+              </a>
             </Button>
           </nav>
 
@@ -53,8 +56,11 @@ const Header = () => {
               <a href="#contact" className="text-gray-700 hover:text-taxventure-red transition-colors">Contact</a>
               <Button 
                 className="bg-taxventure-red hover:bg-taxventure-red-dark text-white w-full"
+                asChild
               >
-                Get Started
+                <a href="https://demo.taxventure.net/" target="_blank" rel="noopener noreferrer">
+                  Get Started
+                </a>
               </Button>
             </div>
           </div>
