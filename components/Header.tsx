@@ -32,7 +32,7 @@ const Header = () => {
               className="bg-taxventure-red hover:bg-taxventure-red-dark text-white"
               asChild
             >
-              <a href="http://demo.taxventure.net/" target="_blank" rel="noopener noreferrer">
+              <a href="https://clients.taxventure.net/" target="_blank" rel="noopener noreferrer">
                 Sign In
               </a>
             </Button>
@@ -58,7 +58,7 @@ const Header = () => {
                 className="bg-taxventure-red hover:bg-taxventure-red-dark text-white w-full"
                 asChild
               >
-                <a href="http://demo.taxventure.net/" target="_blank" rel="noopener noreferrer">
+                <a href="https://clients.taxventure.net/" target="_blank" rel="noopener noreferrer">
                   Sign In
                 </a>
               </Button>
